@@ -1,0 +1,275 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background: #E8E8E8;
+    }
+    /* Header */
+    
+    .header {
+        min-height: 100vh;
+        width: 100%;
+        background-image: url(media/andy-beales-BjcGdM-mjL0-unsplash.png);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        opacity: 1;
+    }
+    
+    .text-box {
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        width: 30%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+    }
+    
+    .text-box h1 {
+        font-size: 100px;
+        height: 138px;
+    }
+    
+    .text-box p {
+        margin: 10px 0 40px;
+        font-size: 15px;
+        height: 92px;
+    }
+    
+    .contactbtn {
+        display: inline-block;
+        text-decoration: none;
+        background-color: #0E765A;
+        color: #FFFFFF;
+        padding: 12px 34px;
+        font-size: 13px;
+        position: relative;
+        letter-spacing: 0.96px;
+    }
+    
+    .contactbtn .fa {
+        padding: 5px 10px;
+        color: #FFFFFF;
+    }
+    
+    @media(max-width: 700px) {
+        .header {
+            font-size: 30px;
+            height: 138px;
+        }
+        .text-box h1 {
+            font-size: 30px;
+            height: 138px;
+        }
+        .row {
+            flex-direction: column;
+        }
+        .contact-box {
+            flex-direction: column;
+        }
+    }
+    
+    .info {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-top: 15px;
+    }
+    
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .col {
+        background: #FFFFFF;
+        box-shadow: 0px 10px 50px #00000008;
+        opacity: 1;
+        padding: 5%;
+    }
+    
+    .col h3 {
+        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 20px/var(--unnamed-line-spacing-25) var(--unnamed-font-family-trade-gothic-next-lt-pro);
+        color: var(--unnamed-color-ffffff);
+        text-align: center;
+        font: normal normal bold 20px/25px Trade Gothic Next LT Pro;
+        letter-spacing: 0.92px;
+        text-transform: uppercase;
+        opacity: 1;
+        background: gray;
+        padding: 20px 12px;
+        color: #FFFFFF;
+    }
+    
+    .col .fa {
+        opacity: 1;
+        padding: 20px 12px;
+        color: gray;
+    }
+    
+    .col p {
+        top: 1106px;
+        left: 672px;
+        width: 236px;
+        height: 376px;
+        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-30) var(--unnamed-font-family-trade-gothic-next-lt-pro);
+        letter-spacing: var(--unnamed-character-spacing-0);
+        text-align: center;
+        font: normal normal normal 16px/30px Trade Gothic Next LT Pro;
+        letter-spacing: 0px;
+        color: #0F0F0F;
+        opacity: 1;
+    }
+    
+    .container {
+        width: 80%;
+        margin: 50px auto;
+    }
+    
+    .contact-box {
+        background: #FFFFFF;
+        display: flex;
+    }
+    
+    .contact-left {
+        width: 6%;
+        background: #0E765A;
+    }
+    
+    .contact-center {
+        flex-basis: 47%;
+        padding: 40px 60px;
+    }
+    
+    .contact-center h1 {
+        font-size: 40px;
+        padding: 20px 0;
+        text-transform: uppercase;
+    }
+    
+    .contact-center p {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    
+    .input-group {
+        padding-bottom: 10px;
+    }
+    
+    input {
+        width: 70%;
+        padding-bottom: 10px;
+        border: 1px solid #ccc;
+        background: #E8E8E8;
+        padding: 10px 10px;
+    }
+    
+    textarea {
+        width: 70%;
+        border: 1px solid #ccc;
+        background: #E8E8E8;
+        padding: 10px 10px;
+        margin-bottom: 40px;
+    }
+    
+    button {
+        background: #0E765A;
+        color: white;
+        width: 25%;
+        padding: 15px 10px;
+        text-align: center;
+        text-transform: uppercase;
+        border: none;
+    }
+    
+    .contact-right {
+        flex-basis: 47%;
+        padding: 40px;
+        background: #0E765A;
+        color: #FFFFFF;
+        height: 80%;
+    }
+    
+    .contact-right h3 {
+        font-size: 25px;
+        padding: 10px 10px;
+    }
+    
+    .contact-right h4 {
+        font-size: 15px;
+        padding: 10px 10px;
+    }
+    
+    .contact-right p {
+        padding: 5px 10px;
+    }
+    
+    .contact-right .fa {
+        float: right;
+    }
+    
+    .call-btn {
+        display: inline-block;
+        text-decoration: none;
+        background-color: white;
+        color: black;
+        padding: 13px 50px;
+        font-size: 20px;
+        position: relative;
+        letter-spacing: 0.96px;
+        margin-top: 25px;
+    }
+    
+    .call-btn .fa {
+        padding: 5px 20px;
+        color: black;
+    }
+    /* Footer */
+    
+    .footer {
+        /* Layout Properties */
+        top: 2716px;
+        left: 0px;
+        width: 1920px;
+        height: 292px;
+        /* UI Properties */
+        background: #717171 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+    
+    .footer h4 {
+        top: 2797px;
+        left: 107px;
+        height: 40px;
+        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 35px/var(--unnamed-line-spacing-102) Good Pro;
+        letter-spacing: var(--unnamed-character-spacing-0);
+        font: normal normal bold 35px/102px Good Pro;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        text-align: left;
+        text-transform: uppercase;
+        opacity: 1;
+        padding: 0 50px;
+    }
+    
+    .footer p {
+        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 12px/15px var(--unnamed-font-family-trade-gothic-next-lt-pro);
+        text-align: left;
+        font: normal normal normal 12px/15px Trade Gothic Next LT Pro;
+        letter-spacing: 0.97px;
+        color: #FFFFFF;
+        opacity: 1;
+        padding: 0 50px;
+    }
+    
+    .icons .fa {
+        top: 2877px;
+        left: 260px;
+        width: 31px;
+        height: 57px;
+        opacity: 1;
+        color: #FFFFFF;
+        padding: 50px 50px;
+    }
